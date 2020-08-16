@@ -9,10 +9,8 @@ public class Desafio3 {
 		System.out.println("Por favor digite uma frase: ");
 		String x = leTeclado.next();
 		int total = 0;
-
-		int nome = x.length();
-		System.out.println("tamanho = " + nome);
-
+//		int nome = x.length();
+//		System.out.println("tamanho = " + nome);
 		for (int contador = 0; contador < x.length(); contador++) {
 			char ch = x.charAt(contador);// charAt() = é um método que que retorna apenas um caractere localizado em um
 											// índice indicado por mim dentro da minha String.
@@ -23,7 +21,6 @@ public class Desafio3 {
 				total = total + 1;
 			}
 		}
-		System.out.println(total);
-		leTeclado.close();
-	}
+		System.out.println(total+2);
+			}
 }
